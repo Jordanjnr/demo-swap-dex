@@ -28,16 +28,8 @@ const Dex = () => {
   const [hoverColor, setHoverColor] = useState("");
   const [chainId, setChainId] = useState(137);
   const [zeroxNetwork, setZeroxNetwork] = useState("polygon.");
-  const [gas, setGas] = useState(0);
-  const [txData, setTxData] = useState(null);
-  const [gasPrices, setGasPrices] = useState(null);
-  const [to, setTo] = useState(null);
-  const [valueExchangedDecimals, setValueExchangedDecimals] = useState(null);
-  const [valueExchanged, setValueExchanged] = useState(null);
-  const [actualTxValue, setActualTxValue] = useState(null);
   const [response, setResponse] = useState(null);
   const [userAddress, setUserAddress] = useState(null);
-  const [transactionData, setTransactionData] = useState(null);
   const [approvedData, setApprovedData] = useState(null);
   const [oxParams, setOxParams] = useState(null);
   const [swapData, setSwapData] = useState(null);
